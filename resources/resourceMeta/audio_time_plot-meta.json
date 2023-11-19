@@ -1,0 +1,40 @@
+{ 
+    "requestBody": {
+        "fileId": {
+            "isRequired": true
+        },
+        "mode":{
+            "isRequired": false,
+            "defaultValue": "FULL"
+        },
+        "interval":{
+            "isRequired": false,
+            "defaultValue": {
+                "from": 0,
+                "to": 200
+            }
+        },
+        "xLabel":{
+            "isRequired": false,
+            "defaultValue": "Time [s]"
+        },
+        "yLabel":{
+            "isRequired": false,
+            "defaultValue": "Value"
+        },
+        "title":{
+            "isRequired": false,
+            "defaultValue": ""
+        },
+        "lineWidth":{
+            "isRequired": false,
+            "defaultValue": 0.30
+        }
+    },
+    "constDefinition":{
+        "mode":{
+            "full": "FULL",
+            "interval": "INTERVAL"
+        }
+    }
+}
