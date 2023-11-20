@@ -16,4 +16,5 @@ api.add_resource(Audio_Spectogram_Plot, '/plotAudio/spectogram')
 api.add_resource(Server_Status, '/status')
 
 if __name__ == '__main__':
-    app.run()
+    print('Inicializando App')
+    app.run(debug=True)

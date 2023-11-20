@@ -7,8 +7,10 @@ import io
 class Azure_Utils:
     def __init__(self):
         self.azure_credential = DefaultAzureCredential()
-        self.account_url = os.environ.get('ACCOUNT_URL')
-        self.container = os.environ.get('CONTAINER')
+        self.account_url = os.environ.get('ACCOUNT_URL','https://ezsignalstorage.blob.core.windows.net/')
+        self.container = os.environ.get('CONTAINER', 'ez-signal-blob-dev')
+        print(self.account_url)
+        print(self.container)
         self.connect()
         
     def connect(self):
