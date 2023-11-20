@@ -14,4 +14,4 @@ api.add_resource(Audio_Time_Plot, '/plotAudio/timeDomain')
 api.add_resource(Audio_Spectogram_Plot, '/plotAudio/spectogram')
 
 if __name__ == '__main__':
-    app.run(port=5000,debug=True)
+    app.run()
