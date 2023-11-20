@@ -15,6 +15,6 @@ api.add_resource(Audio_Time_Plot, '/plotAudio/timeDomain')
 api.add_resource(Audio_Spectogram_Plot, '/plotAudio/spectogram')
 api.add_resource(Server_Status, '/status')
 
-if __name__ == '__main__':
-    print('Inicializando App')
-    app.run(debug=True)
+# if __name__ == '__main__':
+#     print('Inicializando App')
+#     app.run(debug=True)
