@@ -6,7 +6,7 @@ import json
 from utils.azure_utils import Azure_Utils
 from utils.request_handler_utils import validateRequestParams
 from utils.response_utils import success_response, server_error_response
-from flask_restful import Resource
+from flask_restx import Resource
 from flask import request
 
 fullMode = 'FULL'
