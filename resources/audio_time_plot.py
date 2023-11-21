@@ -7,7 +7,7 @@ from utils.azure_utils import Azure_Utils
 from utils.meta_utils import loadMetadata
 from utils.request_handler_utils import validateRequestParams
 from utils.response_utils import bad_request_reponse, success_response, server_error_response
-from flask_restful import Resource
+from flask_restx import Resource
 from flask import request
 
 metadata = loadMetadata('./resources/resourceMeta/audio_time_plot-meta.json')

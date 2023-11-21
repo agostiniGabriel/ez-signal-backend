@@ -1,5 +1,5 @@
 from flask import make_response
-from flask_restful import Resource
+from flask_restx import Resource
 from utils.azure_utils import Azure_Utils
 
 class File_Helper(Resource):

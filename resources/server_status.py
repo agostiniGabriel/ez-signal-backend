@@ -1,4 +1,4 @@
-from flask_restful import Resource
+from flask_restx import Resource
 from utils.response_utils import success_response
 
 class Server_Status(Resource):
