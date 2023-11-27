@@ -1,0 +1,17 @@
+{ 
+    "requestBody": {
+        "fileId": {
+            "isRequired": true
+        },
+        "cutoffLowFrequency":{
+            "isRequired": true
+        }, 
+        "cutoffHighFrequency":{
+            "isRequired": true
+        },
+        "order":{
+            "isRequired": false,
+            "defaultValue":5
+        }    
+    }
+}
