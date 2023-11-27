@@ -1,0 +1,23 @@
+{ 
+    "requestBody": {
+        "fileId": {
+            "isRequired": true
+        },
+        "xLabel":{
+            "isRequired": false,
+            "defaultValue": "Frequency [Hz]"
+        },
+        "yLabel":{
+            "isRequired": false,
+            "defaultValue": "Frequency Amplitude |X(t)|"
+        },
+        "title":{
+            "isRequired": false,
+            "defaultValue": "Sinal no Domínio da Frequência"
+        },
+        "lineWidth":{
+            "isRequired": false,
+            "defaultValue": 0.30
+        }
+    }
+}

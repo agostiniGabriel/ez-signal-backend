@@ -1,0 +1,11 @@
+{ 
+    "requestBody": {
+        "fileId": {
+            "isRequired": true
+        },
+        "title":{
+            "isRequired": false,
+            "defaultValue": "Espectograma"
+        }
+    }
+}
